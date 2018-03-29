@@ -1,0 +1,30 @@
+<% include partials/template/header.ejs %>
+<div class="container">
+    <div class="form-header">
+        <h1>Contact Us</h1>
+        <form class="feedback-form">
+            <div class="form-group">
+                <label for="form-name">Name</label><br>
+                <input type="text" id="form-name" placeholder="Enter your name">
+            </div>
+            <div class="form-group">
+                <label for="form-title">Title</label><br>
+                <input type="text" id="form-title" placeholder="Title of your feedback">
+            </div>
+            <div class="form-group">
+                <label for="form-message">Message</label><br>
+                <textarea type="text" id="form-message" placeholder="Enter your message" rows="4"></textarea>
+            </div>
+            <button type="submit" id="feedback-submit">Submit</button>
+        </form>
+    </div>
+    <aside class="display-feedback">
+        <h1>Recent Feedback</h1>
+        <div class="feedback-messages">
+        
+        </div>
+    </aside>
+</div>
+<% include partials/template/footer.ejs %>
+
+

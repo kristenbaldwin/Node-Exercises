@@ -1,0 +1,10 @@
+body {
+    font-family: 'Oswald', sans-serif; 
+    background-color: burlywood;
+    color: navy;
+    padding: 40px;
+}
+
+p {
+    font-size: 20px;
+}

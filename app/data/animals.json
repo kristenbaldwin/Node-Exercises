@@ -1,0 +1,30 @@
+[{
+    "type": "puppy",
+    "name": "Rottweiler",
+    "description": "Don't you want to stop what you're doing and play fetch with this adorable puppy?!",
+    "imgURL": "rottweiler.JPG"
+},
+{
+    "type": "puppy",
+    "name": "Rhodesian Ridgeback",
+    "description": "Just look at that face!",
+    "imgURL": "rhodesian-ridgeback.jpg"
+},
+{
+    "type": "puppy",
+    "name": "Chocolate Lab",
+    "description": "This puppy just wants a big hug!",
+    "imgURL": "chocolate-lab.jpg"
+},
+{
+    "type": "kitten",
+    "name": "Kitten 1",
+    "description": "SHO CUTE",
+    "imgURL": "kitten-1.jpg"
+},
+{
+    "type": "kitten",
+    "name": "Kitten 2",
+    "description": "WOW, those eyes are beautiful!",
+    "imgURL": "kitten-2.jpg"
+}]

@@ -1,0 +1,10 @@
+<div class="content">
+    <% if (images.length > 0) { %>
+        <% for (i=0; i < images.length; i++) { %>
+            <div class="pic-card">
+                <img src="/images/<%= images[i] %>">
+                <h3><%= name[i] %></h3><p class="a-descrip"><%= description[i] %></p>
+            </div>
+        <% } %>
+    <% } %>
+</div>

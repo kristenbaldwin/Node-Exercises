@@ -1,0 +1,160 @@
+html {
+    font-family: 'Roboto', sans-serif;
+}
+
+.nav {
+    background-color: rgb(184, 145, 93);
+    padding: 20px;
+    font-weight: 600;
+}
+
+.topHeader {
+    margin-left: 7%;
+}
+
+a {
+    text-decoration: none;
+    font-size: 20px;
+    color: white;
+}
+
+a:hover {
+    color: royalblue;
+}
+
+h1 {
+    font-size: 2em;
+}
+
+h3 {
+    margin: 10px 10px 0 10px;
+}
+
+.a-descrip {
+    margin: 5px 10px 10px 10px;
+}
+
+img {
+    width: 300px;
+    display: inline-block;
+    border-top-left-radius: 10px;
+    border-top-right-radius: 10px;
+}
+
+.content {
+    width: 90%;
+    margin: 0 auto;
+    display: flex;
+    flex-flow: row wrap;
+}
+
+.pic-card {
+    display: inline-block;
+    width: 300px;
+    margin: 0 25px 25px 25px;
+    border: 1px solid black;
+    box-shadow: 2px 2px 8px rgb(134, 134, 134);
+    justify-content: center;
+    border-radius: 10px;
+}
+
+footer {
+    margin-top: 50px;
+    text-align: center;
+    background-color: rgb(184, 145, 93);
+    padding: 20px;
+    font-weight: 600;
+}
+
+.container {
+    display: flex;
+    justify-content: space-evenly;
+}
+
+.form-header {
+    margin-left: 5%;
+    margin-right: 5%;
+}
+
+form {
+    border: 1px solid black;
+    box-shadow: 2px 2px 8px rgb(134, 134, 134);
+    width: 400px;
+    padding: 20px;
+    border-radius: 10px;
+}
+
+.form-group {
+    margin-bottom: 15px;
+}
+
+input {
+    padding: 8px;
+    font-size: 14px;
+    width: 50%;
+}
+
+#form-message, #chat-message {
+    width: 80%;
+    font-size: 14px;
+    padding: 8px;
+}
+
+.feedback-messages, .panel {
+    overflow: auto;
+    width: 500px;
+    max-height: 600px;
+    margin-right: 5%;
+}
+
+h4 {
+    margin-bottom: 0;
+}
+
+.message-text {
+    margin-top: 0;
+}
+
+.feedback-message {
+    margin-bottom: 1em;
+}
+
+.remove-item {
+    font-size: 12px;
+    font-style: italic;
+    text-decoration: underline;
+    padding: 5px;
+    margin-bottom: 1em;
+}
+
+#feedback-submit, #chat-submit {
+    padding: 10px;
+    width: 80px;
+    font-size: 14px;
+    font-weight: 700;
+    border-radius: 10px;
+    background-color: rgb(184, 145, 93);
+    border: none;
+}
+
+#feedback-submit:hover, #chat-submit:hover {
+    background-color: white;
+    border: 1px solid rgb(184, 145, 93);
+}
+
+.chat-display {
+    min-height: 150px;
+    max-height: 400px;
+    font-size: 1.2em;
+}
+  
+.chat-display p {
+    padding: 10px 15px;
+    margin: 0;
+}
+
+.panel {
+    margin-top: 6.5%;
+    background-color: lightgrey;
+    border-radius: 10px;
+}
